@@ -1,0 +1,34 @@
+/* Viewport 1024px */
+@media screen and (max-width:1024px){
+
+	.botoes {
+		background-color:#111;
+	}
+	#netflix--main p {
+		width:50%;
+	}
+
+}
+
+/* Viewport 768px */
+@media screen and (max-width:768px){
+
+	.netflix--header .container {
+		flex-direction:column;
+	}
+	.netflix--nav {
+		margin-bottom:10px;
+	}
+	.netflix--botoes {
+		display:flex;
+		flex-direction:column;
+		width:50%;
+	}
+	.botoes {
+		margin-bottom:10px;
+	}
+	#netflix--main p {
+		width:70%;
+	}
+
+}
